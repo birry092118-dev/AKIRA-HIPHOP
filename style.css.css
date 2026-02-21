@@ -1,0 +1,140 @@
+@charset "utf-8" ;
+
+body{
+    margin-top: 15px;
+    background-color: rgb(248, 233, 150);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: antiquewhite;
+    width: 480px;
+    margin: auto;
+    padding: 40px 30px 30px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+header nav ul {
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    border-top: 2px solid;
+    border-bottom:2px solid ;
+    width: 100%;
+    z-index: 1000;
+    padding: 5px;
+
+}
+header nav ul li{
+    margin: 0 20px;
+    font-weight: bold;
+}
+.概要{
+    width: 480px;
+    background-color: rgb(198, 255, 252);
+    padding: 30px;
+    margin: auto;
+}
+.概要 h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px 10px;
+}
+.概要 p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.概要 table{
+    background-color: white;
+    margin: auto ;
+    border: 2px solid;
+    width: 250px ;
+    height: 50px;
+}
+.概要 table, .概要 table th, .概要 table td{
+    border: 2px solid;
+    text-align: center;
+    vertical-align: middle;
+}
+.クラス紹介{
+    width: 480px;
+    background-color: rgb(255, 194, 166);
+    padding: 30px;
+    margin: auto;
+}
+.クラス紹介 h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.クラス紹介 h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 15px;
+}
+.クラス紹介 p{
+    font-size: 20px;
+    text-align: center;
+}
+.クラス紹介 img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.INFO{
+    background-color: rgb(169, 252, 255);
+    margin: auto;
+    padding: 30px;
+    width: 480px;
+}
+.INFO h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.INFO ul{
+    display: list-item;
+    list-style: circle;
+    text-align: center;
+}
+.INFO ul li{
+    margin-bottom: 15px;
+
+}
+.アクセス{
+    background-color: aquamarine;
+    margin: auto;
+    padding: 30px;
+    width: 480px;
+
+}
+.アクセス h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+
+}
+.アクセス p{
+    text-align: center;
+}
+.アクセス p a{
+    display: block;
+    width: fit-content;
+    margin: auto ;
+    margin-top: 10px;
+}
+aside{
+    background-color: white;
+    text-align: center;
+}
+footer{
+    background-color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
