@@ -4,7 +4,7 @@ body{
     width: 550px;
     margin-top: 15px;
     margin: auto;
-    background-image: url("img/PK-PAUI0030.jpg");
+    background-image: url("PK-PAUI0030.jpg");
     background-size: cover;
     background-color: raba(#fff, 0.7);
     background-blend-mode: screen;
@@ -162,4 +162,5 @@ html{
 }
 .scroll-in{
     opacity: 1;
+
 }
