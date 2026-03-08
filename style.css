@@ -5,7 +5,7 @@ body{
     
     margin: auto;
     background-image:
-    linear-gradient(rgba(128, 54, 33, 0.5), rgba(110, 72, 37, 0.5)), url("img/PK-PAUI0030.jpg");
+    linear-gradient(rgba(128, 54, 33, 0.5), rgba(110, 72, 37, 0.5)), url("PK-PAUI0030.jpg");
     background-size: cover;
     background-color: raba(#fff, 0.7);
     background-blend-mode: screen;
@@ -265,7 +265,7 @@ html{
      width: 550px;
     margin-top: 15px;
     margin: auto;
-    background-image: url("img/PK-PAUI0030.jpg");
+    background-image: url("PK-PAUI0030.jpg");
     background-size: cover;
     background-color: raba(#fff, 0.7);
     background-blend-mode: screen;
@@ -303,7 +303,7 @@ html{
      width: 550px;
     margin-top: 15px;
     margin: auto;
-    background-image: url("img/PK-PAUI0030.jpg");
+    background-image: url("PK-PAUI0030.jpg");
     background-size: cover;
     background-color: raba(#fff, 0.7);
     background-blend-mode: screen;
@@ -486,4 +486,5 @@ aside h2{
 .says small{
     font-size: 15px;
 }
+
 
