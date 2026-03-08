@@ -1,0 +1,489 @@
+@charset "utf-8" ;
+
+body{
+    width: 550px;
+    
+    margin: auto;
+    background-image:
+    linear-gradient(rgba(128, 54, 33, 0.5), rgba(110, 72, 37, 0.5)), url("img/PK-PAUI0030.jpg");
+    background-size: cover;
+    background-color: raba(#fff, 0.7);
+    background-blend-mode: screen;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.index {
+    background-color: #f0caad;
+    width: 480px;
+    height: 400px;
+    margin: auto;
+    padding: 30px;
+    top: 0px;
+}
+.header{
+    width: 540px;
+    height: 50px;
+    right: 362px;
+    display: flex;
+    position: fixed;
+    background: rgba(124, 123, 123, 0.596);
+}
+.header h1{
+    text-align: left;
+    font-size: 25px;
+    display: block;
+    top: 0px;
+    left: 370px;
+    position: fixed;
+}
+
+.header .hamburger-menu {
+  width: 50px;
+  height: 50px;
+  border: 2px solid;
+  position: fixed;
+  top: 0px;
+  right: 370px;
+  appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+  display: block;
+}
+.hamburger-menu__bar {
+  display: inline-block;
+  width: 44%;
+  height: 2px;
+  background: #242424;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: .5s;
+}
+.hamburger-menu__bar:first-child {
+  top: 16px;
+}
+.hamburger-menu__bar:nth-child(2) {
+  top: 24px;
+}
+.hamburger-menu__bar:last-child {
+  top: 32px;
+}
+.hamburger-menu--open .hamburger-menu__bar {
+  top: 50%;
+}
+.hamburger-menu--open .hamburger-menu__bar:first-child {
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.hamburger-menu--open .hamburger-menu__bar:last-child {
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+.hamburger-menu--open .hamburger-menu__bar:nth-child(2) {
+  display: none;
+}
+.navigation {
+  display: none;
+  background: #242424;
+  position: fixed;
+  top: 50px;
+  right: 362px;
+  width: 350px;
+  z-index: 9999;
+}
+.navigation__list {
+    text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navigation__list-item {
+  border-bottom: solid 1px #474747;
+}
+.navigation__list-item:first-child {
+  border-top: solid 1px #474747;
+}
+.navigation__link {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding: 24px 0;
+  transition: .5s;
+}
+@media (hover: hover) and (pointer: fine) {
+  .navigation__link:hover {
+    background: #333;
+  }
+}
+.概要{
+    background-color: #fefdfd;
+    width: 480px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.概要 h2{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 0px 30px;
+}
+.概要 h3{
+    font-size: 40px;
+    text-align: center;
+    padding: 0px 0px 15px;
+}
+.概要 p{
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.system{
+   background-color: #faebe0;
+    margin: auto;
+    width: 480px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.system h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px 30px;
+}
+
+.system table{
+    background-color: white;
+    margin: auto ;
+    border: 2px solid;
+    width: 350px ;
+    height: 200px;
+}
+.system table, .system table th, .system table td{
+    border: 2px solid;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.クラス紹介{
+    background-color: #faebe0;
+    width: 480px;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.クラス紹介 h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.クラス紹介 h3{
+    font-size: 25px;
+    margin: 15px;
+}
+
+.クラス紹介 img{
+    position: relative;
+    width: 400px;
+    margin: 0 10px;
+}
+
+.INFO{
+   background-color: #faebe0;
+    margin: auto;
+    padding: 30px;
+    width: 480px;
+    margin-bottom: 100px;
+}
+.INFO h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.INFO ul{
+    display: list-item;
+    list-style: circle;
+    text-align: center;
+}
+.INFO ul li{
+    margin-bottom: 15px;
+
+}
+.アクセス{
+    background-color: #f0ece9;
+    margin: auto;
+    padding: 30px;
+    width: 480px;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.アクセス h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+
+}
+.アクセス p{
+    text-align: center;
+}
+aside{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    width: 480px;
+    margin-bottom: 100px;
+
+}
+footer{
+    background-color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --swiper-navigation-size:20px !important;
+    --swiper-navigation-color:black !important;
+    --swiper-pagination-bottom:100px !important;
+    --swiper-pagination-color:rgb(255, 255, 255) !important;
+}
+
+.fade-in{
+    opacity: 0;
+    transition-duration: 1000ms;
+    transition-property: opacity, transform;
+}
+.scroll-in{
+    opacity: 1;
+}
+.biginer body{
+     width: 550px;
+    margin-top: 15px;
+    margin: auto;
+    background-image: url("img/PK-PAUI0030.jpg");
+    background-size: cover;
+    background-color: raba(#fff, 0.7);
+    background-blend-mode: screen;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.biginer header{
+    background-color: #fefdfd;
+    width: 480px;
+    margin: auto;
+    padding: 40px 30px 30px;
+    margin-bottom: 100px;
+
+}
+
+.biginer h1{
+    font-size: 60px;
+}
+
+.biginer-intro p{
+    background-color: #fefdfd;
+    font-size: 30px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.biginer-intro {
+    margin: auto;
+    padding: 30px;
+    width: 480px;
+
+}
+.intermediate body{
+     width: 550px;
+    margin-top: 15px;
+    margin: auto;
+    background-image: url("img/PK-PAUI0030.jpg");
+    background-size: cover;
+    background-color: raba(#fff, 0.7);
+    background-blend-mode: screen;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intermediate{
+    background-color: #fefdfd;
+    width: 450px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 100px;
+
+}
+
+.intermediate h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.intermediate-intro{
+    width: 480px;
+    margin: auto;
+    padding: 30px;
+}
+
+.intermediate-intro p{
+    background-color: #fefdfd;
+    font-size: 30px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.intermediate-intro {
+    margin: auto;
+    padding: 30px;
+    width: 480px;
+
+}
+.アクセス iframe{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 20px auto;
+} 
+.アクセス p{
+    line-height: 1.5;
+}
+.アクセス a{
+    display: block;
+    margin: 20px;
+}
+
+aside a{
+    display: block;
+    margin: 20px;
+}
+aside h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+
+}
+.scroll-list{
+    height: 150px;
+    overflow-y: auto ;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+.scroll-list ul{
+    list-style: none;
+    padding: 0;
+}
+
+.scroll-list li{
+    list-style: none;
+    border-bottom: 2px solid #000000;
+    padding: 10px 0;
+}
+.LINKS{
+     background-color: #fefdfd;
+    margin: auto;
+    padding: 30px;
+    width: 480px;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.LINKS h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.LINKS img{
+    width: 100px;
+    margin: 0 10px;
+}
+.初めて{
+    background-color: #faebe0;
+    margin: auto;
+    padding: 30px;
+    width: 480px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.初めて h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.初めて p{
+    
+    font-size: 30px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.初めて table{
+    background-color: white;
+    margin: auto ;
+    border: 2px solid;
+    width: 350px ;
+    height: 200px;
+}
+.初めて table, .初めて table th, .初めて table td{
+    border: 2px solid;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.balloon5 {
+  width: 100%;
+  margin: 1.5em 0;
+  overflow: hidden;
+}
+
+.balloon5 .faceicon {
+  float: left;
+  margin-right: -90px;
+  width: 80px;
+}
+
+.balloon5 .faceicon img{
+  width: 100%;
+  height: auto;
+  border: solid 3px #d7ebfe;
+  border-radius: 50%;
+}
+
+.balloon5 .chatting {
+  width: 100%;
+}
+
+.says {
+  display: inline-block;
+  position: relative; 
+  margin: 5px 0 0 105px;
+  padding: 17px 13px;
+  border-radius: 12px;
+  background: #d7ebfe;
+}
+
+.says:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px; 
+  left: -24px;
+  border: 12px solid transparent;
+  border-right: 12px solid #d7ebfe;
+}
+
+.says p {
+  margin: 0;
+  padding: 0;
+}
+.says small{
+    font-size: 15px;
+}
+
