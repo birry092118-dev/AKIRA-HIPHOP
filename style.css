@@ -595,7 +595,7 @@ aside h2{
     width: 100%;
     height: auto;
     
-    overflow: hidden;
+    overflow: visible;
     
 }
 .topmove{
