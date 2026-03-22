@@ -7,7 +7,7 @@ body{
     margin:0 auto;
     padding: 0;
     background-image:
-     url("img/PK-PAUI0030.jpg");
+     url("PK-PAUI0030.jpg");
     background-size: cover;
     background-color: raba(#fff, 0.7);
     background-blend-mode: screen;
@@ -298,7 +298,7 @@ html{
     
      width: 550px;
     margin: auto;
-    background-image: url("img/PK-PAUI0030.jpg");
+    background-image: url("PK-PAUI0030.jpg");
     background-size: cover;
     background-color: raba(#fff, 0.7);
     background-blend-mode: screen;
@@ -345,7 +345,7 @@ html{
     width: 100%;
     height: auto;
     margin:0 auto;
-    background-image: url("img/PK-PAUI0030.jpg");
+    background-image: url("PK-PAUI0030.jpg");
     background-size: cover;
     background-color: raba(#fff, 0.7);
     background-blend-mode: screen;
