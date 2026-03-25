@@ -31,14 +31,15 @@ $(function() {
   let index = 0;
   const slides = $(".topmove");
 
+  slides.hide();
   slides.eq(index).show();
 
   setInterval(function() {
-    slides.eq(index).fadeOut(1000);
+    slides.eq(index).fadeOut(500);
 
     index = (index + 1) % slides.length;
 
-    slides.eq(index).fadeIn(1000);
-  }, 3000);
+    slides.eq(index).fadeIn(500);
+  }, 2000);
 });
 
