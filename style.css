@@ -92,7 +92,7 @@ z-index: 9999;
   position: fixed;
   top: 50px;
   right: 0;
-  width: 350px;
+  width: 20%;
   z-index: 9999;
 }
 .navigation__list {
