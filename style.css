@@ -602,17 +602,17 @@ aside h2{
 }
 .top{
     position: relative;
-    height: 100vh;
-
-    margin: 0 auto;
-    overflow: hidden;
+      width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     
 }
 
 .top video{
-    width: auto;
-    height: 100%;
-    object-fit: cover;
+   max-width:100%;
+    max-height:100%;
 }
 .swiper-pagination.a{
     margin-bottom: 90px;
