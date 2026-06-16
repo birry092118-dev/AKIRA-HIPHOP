@@ -602,23 +602,17 @@ aside h2{
 }
 .top{
     position: relative;
-    width: 100%;
     height: 100vh;
+
     margin: 0 auto;
-    overflow: visible;
-    display: flex;
+    overflow: hidden;
     
 }
-.topmove{
-    position: absolute;
-    filter: brightness(1.5);
-    width: 100%;
+
+.top video{
+    width: auto;
     height: 100%;
     object-fit: cover;
-}
-
-.topmove .active{
-    display: block;
 }
 .swiper-pagination.a{
     margin-bottom: 90px;
